@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->integer('company_id');
             $table->float('latestPrice');
-            $table->integer('latestUpdate');
+            $table->bigInteger('latestUpdate');
             $table->string('symbol');
             $table->timestamps();
         });
